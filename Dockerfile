@@ -1,6 +1,6 @@
 FROM node
 RUN mkdir /usr/src/app
-RUN mkdir /var/upload
+RUN mkdir /usr/src/app/storage
 WORKDIR /usr/src/app
 ADD main.js main.js
 ADD package.json package.json
