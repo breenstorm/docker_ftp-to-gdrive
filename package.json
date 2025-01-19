@@ -1,0 +1,25 @@
+{
+  "name": "docker_ftp-to-gdrive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breenstorm/docker_ftp-to-gdrive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/breenstorm/docker_ftp-to-gdrive/issues"
+  },
+  "homepage": "https://github.com/breenstorm/docker_ftp-to-gdrive#readme",
+  "dependencies": {
+    "ftp-srv": "^4.6.3",
+    "googleapis": "^144.0.0",
+    "ts-google-drive": "^0.0.7"
+  }
+}
